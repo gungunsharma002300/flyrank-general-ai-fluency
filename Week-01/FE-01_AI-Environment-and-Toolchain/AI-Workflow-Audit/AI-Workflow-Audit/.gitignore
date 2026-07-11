@@ -1,0 +1,36 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Office temp files
+~$*.docx
+~$*.xlsx
+~$*.pptx
+*.tmp
+
+# Python (if scripts are added later)
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node (if tooling is added later)
+node_modules/
+npm-debug.log
+
+# Logs
+*.log
+
+# Local environment
+.env
+.env.local
+
+# Archive exports
+*.zip

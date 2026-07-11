@@ -1,0 +1,65 @@
+SUBMISSION NOTES
+AI Workflow Audit and Tool Setup
+FlyRank Frontend AI Engineering Internship
+
+Submitted by: Gungun Sharma
+Education: BCA, 2nd Year
+
+--------------------------------------------------------------------
+
+TO THE REVIEWER
+
+This folder contains the complete AI Workflow Audit assignment, structured
+as a GitHub-ready repository. A short guide to what's here and how to
+read it:
+
+1. Start with README.md for the project overview and folder structure.
+
+2. Report/AI_Workflow_Audit_Report.docx (and the matching .pdf) is the
+   primary deliverable. It contains the full audit, analysis, and
+   reflection in report form.
+
+3. Deliverables/Workflow_Audit_Table.xlsx is the underlying data behind
+   the report's audit section — 15 recurring weekly tasks classified by
+   AI-suitability, with reasoning for each classification.
+
+4. Deliverables/Three_Target_Tasks.docx expands on the three tasks I
+   chose to redesign: AI-assisted coding, documentation, and project
+   planning.
+
+5. Notes/ contains my working notes — Workflow_Notes.md and
+   AI_Fluency_Summary.md — written before the final report, kept here
+   for transparency about my process rather than polished after the fact.
+
+6. Screenshots/ is where I've placed supporting screenshots referenced
+   in the report (Claude project setup, AI Fluency certificate, GitHub
+   repository, and the original FlyRank assignment brief).
+
+--------------------------------------------------------------------
+
+ON AI USE IN THIS SUBMISSION
+
+In keeping with the responsible-AI practices covered in Anthropic's AI
+Fluency course (and the point of this assignment), I want to be upfront
+about how AI was used here:
+
+- I used Claude to help draft and structure sections of the report and
+  notes, and to review my own writing for clarity.
+- The audit table classifications, the task selections, and the
+  reflections are based on my own weekly workflow and my own reasoning —
+  AI helped me articulate them, not generate them from nothing.
+- I verified factual and structural content (folder structure, course
+  concepts, formatting) rather than accepting first drafts as final.
+
+This mirrors exactly the "Delegate to AI with Review" and "Collaborate
+with AI" categories described in the audit table itself — the report
+about responsible AI use was, itself, produced using the practices it
+describes.
+
+--------------------------------------------------------------------
+
+CONTACT
+
+Gungun Sharma
+BCA, 2nd Year
+FlyRank Frontend AI Engineering Intern
