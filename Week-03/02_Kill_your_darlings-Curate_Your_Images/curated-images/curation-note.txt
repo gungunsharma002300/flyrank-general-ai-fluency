@@ -1,0 +1,51 @@
+IMAGE CURATION NOTE — Gungun Sharma
+"Kill your darlings: Curate Your Images"
+
+IMAGE LIST (mapped to sitemap):
+- Home → hero-background.png (AI-generated texture, matches identity kit)
+- Work → work-claude-project-setup.png (real screenshot, AI Workflow
+  Audit project) + work-ai-fluency-certificate.png (real certificate,
+  proof of completed AI Fluency course) + work-sitemap-sketch.jpg (real
+  photo of hand-drawn sitemap planning) + work-portfolio-project-setup.png
+  (real screenshot, FlyRank Portfolio Sitemap project) +
+  work-pressure-test-part1/2/3.jpg (real screenshots, full pressure-test
+  conversation used to stress-test the sitemap before building it)
+- About → text-only bio, no image. Chose not to include a personal photo;
+  the bio itself carries the "why is this person credible" answer instead.
+- Contact → identity kit logo (GS monogram, no new image needed)
+
+REAL VS AI-GENERATED:
+- work-claude-project-setup.png, work-portfolio-project-setup.png, and
+  work-pressure-test-part1/2/3.jpg are REAL screenshots of actual Claude
+  conversations and project setups, cropped to remove taskbars and the
+  floating message-input box so only the relevant content shows.
+- work-ai-fluency-certificate.png is a REAL certificate (Anthropic AI
+  Fluency course), extracted cleanly from the original PDF — proof of
+  work, not a generated image.
+- work-sitemap-sketch.jpg is a REAL photo of a hand-drawn planning sketch,
+  cropped to the page content, showing the sitemap was planned on paper
+  before being built.
+- hero-background.png is AI-generated. It's connective tissue (a subtle
+  background texture for the Home hero section), not a claim about real
+  work, so generating it is appropriate here.
+
+REJECTED IMAGE — WHY:
+I generated two hero background options in the same brand colors
+(#0C447C, #1A1A18, #FAFAF8, #D85A30):
+1. A grid pattern with two soft translucent circles (KEPT)
+2. A scattered "network of dots" pattern connected by thin lines (REJECTED)
+
+I rejected option 2 because the connected-dots pattern reads as busy and
+draws the eye away from the hero text — it looks like a generic "tech/AI"
+stock graphic rather than something tied to my actual identity kit. Option
+1 is calmer: the grid echoes a clean, structured layout (fits the "General
+AI Fluency" precision angle) and the two soft circles use the exact accent
+and main colors from the kit without competing with the headline text —
+directly matching the brief's own bar: "calm enough that your work is the
+loudest thing on the page."
+
+NOTE ON THE ABOUT PAGE:
+Chose not to include a personal photo. The About page stays text-only —
+a short bio answering "why is this person credible at using AI well,
+specifically," per the sitemap notes — rather than defaulting to a photo
+just because portfolios usually have one.

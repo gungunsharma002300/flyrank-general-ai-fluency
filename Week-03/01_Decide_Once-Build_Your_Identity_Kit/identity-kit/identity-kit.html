@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Identity Kit — Gungun Sharma</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Inter', sans-serif;
+    background: #FAFAF8;
+    color: #1A1A18;
+    padding: 48px;
+    max-width: 680px;
+    margin: 0 auto;
+  }
+  h1 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    margin-bottom: 4px;
+  }
+  .sub {
+    color: #5F5E5A;
+    font-size: 14px;
+    margin-bottom: 32px;
+  }
+  .card {
+    background: #ffffff;
+    border: 1px solid #E5E3DA;
+    border-radius: 12px;
+    padding: 20px 24px;
+    margin-bottom: 20px;
+  }
+  .label {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: #888780;
+    margin-bottom: 12px;
+  }
+  .type-row {
+    display: flex;
+    gap: 16px;
+  }
+  .type-box {
+    flex: 1;
+    background: #F1EFE8;
+    border-radius: 8px;
+    padding: 14px 16px;
+  }
+  .type-box .name {
+    font-size: 12px;
+    color: #5F5E5A;
+    margin-bottom: 6px;
+  }
+  .type-box .sample-h {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+  }
+  .type-box .sample-b {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+  }
+  .palette-row {
+    display: flex;
+    gap: 12px;
+  }
+  .swatch {
+    flex: 1;
+  }
+  .swatch .chip {
+    height: 56px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    border: 1px solid rgba(0,0,0,0.06);
+  }
+  .swatch .swatch-label {
+    font-size: 12px;
+    color: #5F5E5A;
+  }
+  .swatch .hex {
+    font-size: 12px;
+    font-weight: 500;
+    color: #1A1A18;
+  }
+  .logo-row {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .logo-badge {
+    width: 72px;
+    height: 72px;
+    border-radius: 16px;
+    background: #0C447C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    color: #FAFAF8;
+  }
+  .note {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+  footer {
+    text-align: center;
+    font-size: 12px;
+    color: #B4B2A9;
+    margin-top: 32px;
+  }
+</style>
+</head>
+<body>
+
+  <h1>Identity kit</h1>
+  <div class="sub">Gungun Sharma — FlyRank AI internship, General AI Fluency track</div>
+
+  <div class="card">
+    <div class="label">Typography</div>
+    <div class="type-row">
+      <div class="type-box">
+        <div class="name">Heading — Space Grotesk</div>
+        <div class="sample-h">Build things</div>
+      </div>
+      <div class="type-box">
+        <div class="name">Body — Inter</div>
+        <div class="sample-b">Clear, readable case studies.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="label">Palette</div>
+    <div class="palette-row">
+      <div class="swatch">
+        <div class="chip" style="background:#0C447C;"></div>
+        <div class="swatch-label">Main</div>
+        <div class="hex">#0C447C</div>
+      </div>
+      <div class="swatch">
+        <div class="chip" style="background:#1A1A18;"></div>
+        <div class="swatch-label">Text</div>
+        <div class="hex">#1A1A18</div>
+      </div>
+      <div class="swatch">
+        <div class="chip" style="background:#FAFAF8; border:1px solid #E5E3DA;"></div>
+        <div class="swatch-label">Background</div>
+        <div class="hex">#FAFAF8</div>
+      </div>
+      <div class="swatch">
+        <div class="chip" style="background:#D85A30;"></div>
+        <div class="swatch-label">Accent</div>
+        <div class="hex">#D85A30</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="label">Logo / favicon</div>
+    <div class="logo-row">
+      <div class="logo-badge">GS</div>
+      <div style="font-size: 14px; color: #5F5E5A;">Monogram, set in Space Grotesk, on the main brand color.</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="label">Style note</div>
+    <div class="note">
+      Space Grotesk for headings, Inter for body — hex #0C447C, #1A1A18, #FAFAF8, #D85A30.<br>
+      Calm and clear, so the work stays the loudest thing on the page.
+    </div>
+  </div>
+
+  <footer>Decide once — every page and case study inherits this.</footer>
+
+</body>
+</html>

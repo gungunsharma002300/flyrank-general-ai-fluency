@@ -1,0 +1,11 @@
+STYLE NOTE — Gungun Sharma
+
+Fonts: Space Grotesk (heading), Inter (body)
+Palette: #0C447C (main), #1A1A18 (text), #FAFAF8 (background), #D85A30 (accent)
+
+Space Grotesk for headings, Inter for body — hex #0C447C, #1A1A18, #FAFAF8, #D85A30.
+Calm and clear, so the work stays the loudest thing on the page.
+
+---
+Add this note to your Claude Project's knowledge / custom instructions
+so future case studies automatically follow this style.
