@@ -1,0 +1,64 @@
+SUBMISSION NOTES — Week 3: Consistency, Not Talent
+Gungun Sharma
+
+One-line claim:
+"I use AI to compress build time — then spend the time I save on quality, not corners."
+
+Content map:
+Home (hero + claim + one concrete proof number → featured case preview,
+lead with strongest work) → Work/Case Studies (BugHunter AI as lead case,
+then AI Workflow Audit, both ordered strongest first, each with a named
+call to action) → About (text-only bio, no photo by choice, answers "why
+is this person credible at using AI, specifically") → Contact (the single
+one action, every other page's CTA ladders up to this). Full page-by-page
+breakdown with sections and CTAs is in through-line-deliverable.docx.
+
+Identity kit:
+Fonts — Space Grotesk (heading), Inter (body).
+Palette — #0C447C (main), #1A1A18 (text), #FAFAF8 (background), #D85A30
+(accent).
+Logo/favicon — GS monogram, in Space Grotesk, on the main brand color.
+Style note — "Space Grotesk for headings, Inter for body — hex #0C447C,
+#1A1A18, #FAFAF8, #D85A30. Calm and clear, so the work stays the loudest
+thing on the page." Added to my Claude Project's custom instructions so
+future builds stay consistent.
+
+Image curation:
+Work page images are real captures — Claude Project setups (both the AI
+Workflow Audit project and the Portfolio Sitemap project), the full
+pressure-test conversation where I stress-tested my sitemap before
+building it, the AI Fluency certificate, and a photo of my hand-drawn
+sitemap sketch. No AI stand-ins used for anything that is my actual work.
+One AI-generated image was used: a hero background texture for the Home
+page, built in the identity kit's exact colors — this is connective
+tissue, not a claim about real work, so generating it was appropriate.
+
+Rejected image and why:
+I generated two hero background options in the identity kit's colors: (1)
+a grid pattern with two soft translucent circles, and (2) a scattered
+"network of dots" pattern connected by thin lines. I rejected option 2
+because it read as busy and generic — it looked like a stock "tech/AI"
+graphic rather than something tied to my actual identity, and it drew
+attention toward itself instead of framing the work below it. Option 1
+stayed calm and used the exact brand colors without competing with the
+headline — matching the brief's own bar that design should frame the
+work, never upstage it.
+
+About page — no photo:
+Chose not to include a personal photo. Kept the About page text-only so
+the bio itself carries the "why is this person credible" answer, rather
+than defaulting to a photo just because most portfolios have one.
+
+Still need to gather (honest gaps, noted so the build week isn't blocked):
+- Live demo link or short screen-recording of BugHunter AI actually
+  running against a broken code sample
+- Public, cleaned GitHub repo link for BugHunter AI
+- Concrete manual-time-estimate vs. actual-time numbers — currently only
+  loosely estimated, need real logged numbers for at least one case study
+- A before/after code snippet (buggy → fixed) as visual proof
+- A testimonial or peer/mentor feedback quote, if one exists
+- Explicit note on the case study itself that BugHunter AI's explanation
+  layer and code-quality review are unbuilt — flagged honestly rather
+  than implied as finished
+- Workflow_Audit_Table.xlsx as a visual (screenshot/embedded image) for
+  the Work page, not just a linked spreadsheet
