@@ -1,0 +1,50 @@
+{
+  "name": "Source-Grounded Weekly Industry Brief",
+  "assignment": "FL-04 \u2014 Ship an Automation Workflow v2",
+  "no_code": true,
+  "flow": "Sources \u2192 Gather/Evidence Table \u2192 Synthesize/Themes \u2192 Draft/Brief \u2192 Review/Claim Audit \u2192 Format/Final Brief \u2192 Human Approval",
+  "stages": [
+    {
+      "step": "Step 1 \u2014 Gather",
+      "tool": "NotebookLM",
+      "input": "5\u20138 trusted source documents/URLs about one weekly industry topic.",
+      "prompt": "You are the research-gathering stage. Use ONLY the sources provided in this notebook.\nExtract the facts that are directly supported by the sources. For each useful fact, record:\n(1) claim/finding, (2) source, (3) exact supporting passage or location if available,\n(4) publication date if available, and (5) why the fact matters.\nDo not add outside facts. Flag conflicting claims instead of resolving them by guessing.\nOutput a structured evidence table.",
+      "handoff": "Evidence table + source list + conflict flags."
+    },
+    {
+      "step": "Step 2 \u2014 Synthesize",
+      "tool": "NotebookLM",
+      "input": "Step 1 evidence table.",
+      "prompt": "Using ONLY the evidence gathered in Step 1, group the findings into 3\u20135 themes.\nFor each theme provide: theme title, 2\u20134 supported findings, source references, and a one-sentence\nimplication. Separate direct evidence from interpretation. If evidence is weak or conflicting,\nlabel it clearly. Do not invent statistics, dates, quotes, companies, or conclusions.",
+      "handoff": "3\u20135 themes + supported findings + implications + unresolved questions."
+    },
+    {
+      "step": "Step 3 \u2014 Draft",
+      "tool": "Claude Project / structured prompt",
+      "input": "Synthesized themes and evidence.",
+      "prompt": "Draft a 600\u2013800 word weekly industry brief from the supplied synthesis.\nStructure:\n1. Title\n2. Executive summary (3 bullets)\n3. What changed this week\n4. Why it matters\n5. Evidence-backed implications\n6. What to watch next\n7. Sources\nEvery factual claim must map to a supplied source. Do not introduce new facts.\nUse concise professional language and clearly distinguish evidence from interpretation.",
+      "handoff": "Readable draft with inline source markers and source list."
+    },
+    {
+      "step": "Step 4 \u2014 Review",
+      "tool": "Claude Project / review prompt",
+      "input": "Draft + original evidence table.",
+      "prompt": "Audit the draft against the original evidence.\nCreate a review table with columns: claim, supported source, support status\n(SUPPORTED / PARTIAL / UNSUPPORTED), issue, recommended correction.\nCheck for hallucinated facts, unsupported numbers, missing citations, overclaiming,\nsource-date errors, contradictions, and wording that turns interpretation into fact.\nDo not rewrite silently; report every issue first.",
+      "handoff": "Claim audit + corrections required."
+    },
+    {
+      "step": "Step 5 \u2014 Format",
+      "tool": "Claude Project / formatting prompt",
+      "input": "Reviewed draft + approved corrections.",
+      "prompt": "Produce the final publication-ready brief using only the corrected draft.\nKeep the approved facts and citations. Use clear headings, short paragraphs, bullets where useful,\nand a compact Sources section. Do not add new information during formatting.\nAt the end include a short 'Human review checklist' with: source accuracy, citation accuracy,\ninterpretation vs fact, and final tone check.",
+      "handoff": "Final brief + human-review checklist."
+    }
+  ],
+  "acceptance_criteria": [
+    "Runs end-to-end on a brand-new input",
+    "At least three distinct steps with defined handoffs",
+    "Five real runs documented with outputs/outcomes",
+    "Time accounting includes setup cost",
+    "Failure points and required human review are named"
+  ]
+}

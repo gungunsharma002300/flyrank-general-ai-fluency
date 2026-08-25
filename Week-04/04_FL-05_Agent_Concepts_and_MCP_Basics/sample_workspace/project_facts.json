@@ -1,0 +1,7 @@
+{
+  "project": "FlyRank FL-05 Local Evidence Demo",
+  "owner": "Gungun Sharma",
+  "purpose": "Demonstrate an MCP connection to approved local files",
+  "evidence_policy": "Only files inside sample_workspace may be accessed",
+  "status": "demo-ready"
+}

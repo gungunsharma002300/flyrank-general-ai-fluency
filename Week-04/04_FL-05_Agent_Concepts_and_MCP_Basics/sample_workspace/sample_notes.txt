@@ -1,0 +1,3 @@
+FL-05 demo note
+This file exists to prove that the MCP server can access local workspace content.
+It should only be read through the connected MCP tool during the evidence capture.

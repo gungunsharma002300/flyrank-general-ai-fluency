@@ -1,0 +1,11 @@
+[project]
+name = "flyrank-fl05-local-evidence"
+version = "1.0.0"
+description = "Local MCP server for FlyRank FL-05 evidence demonstration"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp>=2.0,<3",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["../tests"]

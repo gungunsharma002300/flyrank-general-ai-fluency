@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "FlyRank FL-05 Local Evidence": {
+      "command": "C:\\PATH\\TO\\PYTHON\\python.exe",
+      "args": [
+        "C:\\PATH\\TO\\FlyRank_FL-05_Gungun_Sharma_Submission\\mcp_server\\server.py"
+      ]
+    }
+  }
+}
