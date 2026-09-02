@@ -1,0 +1,9 @@
+PF-04 local verification checklist
+- index.html exists
+- style.css exists
+- script.js exists
+- booking.html exists
+- resume.html exists
+- CV PDF exists
+- DNS walkthrough exists
+- all core external links use HTTPS

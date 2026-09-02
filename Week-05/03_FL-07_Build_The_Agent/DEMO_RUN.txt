@@ -1,0 +1,58 @@
+==========================================================
+StudyPilot — Personal BCA Study Coach
+Local-note grounded scripted agent
+==========================================================
+Notes connected: 1 local file(s)
+AI model: local fallback
+Type 'help' for commands.
+
+StudyPilot> - notes/demo_notes.md (score 2): ## OSI Model
+- notes/demo_notes.md (score 2): The OSI model is a seven-layer reference model for network communication.
+StudyPilot> 
+I found relevant material in your local notes. Here is the grounded excerpt to study:
+
+[notes/demo_notes.md]
+# Computer Networks — Unit 1 Demo Notes
+
+## OSI Model
+The OSI model is a seven-layer reference model for network communication.
+The seven layers are Application, Presentation, Session, Transport, Network,
+Data Link, and Physical.
+
+## Network Goals
+Computer networks support resource sharing, communication, data sharing,
+remote access, reliability, cost reduction, and scalability.
+
+## Protocol
+A protocol is a set of rules that controls communication between devices.
+Examples include TCP, IP, HTTP, FTP, and SMTP.
+
+## Network Categories
+PAN covers a very small area around an individual.
+LAN covers a local area such as a building or campus.
+MAN covers a metropolitan area.
+WAN covers a large geographical area.
+
+
+AI mode is not configured, so this run is using the local-note fallback. Set GEMINI_API_KEY if you want model-generated explanations.
+
+StudyPilot> 
+Revision plan for **Computer Networks Unit 1** (90 minutes):
+1. Quick scan of the notes — 13 min
+2. Understand the main concepts — 31 min
+3. Active recall / write key points — 22 min
+4. Exam-style practice — 24 min
+
+StudyPilot> Saved progress: OSI model → revised
+StudyPilot> 
+- OSI model: revised
+
+StudyPilot> Goodbye.
+
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py", line 772, in warm_spreadsheet_runtime
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/connection.py", line 37, in get_or_create_client
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/daemon.py", line 124, in start_daemon
+TimeoutError: Timed out waiting for artifact tool daemon socket. Set ARTIFACT_TOOL_RPC_DAEMON_STARTUP_TIMEOUT_S=<seconds> to increase the limit.
