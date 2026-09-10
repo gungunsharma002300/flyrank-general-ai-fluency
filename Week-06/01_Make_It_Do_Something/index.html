@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio | Make It Do Something</title>
+  <meta name="description" content="A personal portfolio with one real working contact feature.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="#">Portfolio<span>.</span></a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Frontend • AI • Creative Technology</p>
+        <h1>I build simple digital experiences that <span>actually work.</span></h1>
+        <p class="lead">A clean personal portfolio with one real end-to-end feature: a working contact form.</p>
+        <a class="button" href="#contact">Let's connect</a>
+      </div>
+      <div class="hero-card">
+        <div class="dot"></div>
+        <p>Currently building</p>
+        <h2>Useful web experiences</h2>
+        <small>Design → Code → Real interaction</small>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <p class="eyebrow">About</p>
+      <h2>A portfolio, not just a poster.</h2>
+      <p class="section-text">This portfolio demonstrates a real user interaction. Visitors can send a message through the contact form below, and the submission is handled by Formspree.</p>
+    </section>
+
+    <section id="work" class="section">
+      <p class="eyebrow">Selected work</p>
+      <div class="cards">
+        <article class="card"><span>01</span><h3>Frontend Projects</h3><p>Responsive interfaces focused on usability and clean implementation.</p></article>
+        <article class="card"><span>02</span><h3>AI Experiments</h3><p>Small experiments exploring practical AI-powered experiences.</p></article>
+        <article class="card"><span>03</span><h3>Problem Solving</h3><p>Turning ideas into working, testable web experiences.</p></article>
+      </div>
+    </section>
+
+    <section id="contact" class="contact section">
+      <div>
+        <p class="eyebrow">One real feature</p>
+        <h2>Send me a message.</h2>
+        <p class="section-text">Fill out the form and submit it. The data is sent to the connected Formspree endpoint instead of being handled only by the browser.</p>
+      </div>
+
+      <form action="https://formspree.io/f/xppzbrrj" method="POST">
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" placeholder="Your name" required>
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" placeholder="you@example.com" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="6" placeholder="Write your message..." required></textarea>
+
+        <input type="hidden" name="_subject" value="New portfolio contact submission">
+        <button type="submit">Send message ↗</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 My Portfolio</p>
+    <p>Built as a General AI Fluency assignment.</p>
+  </footer>
+</body>
+</html>
