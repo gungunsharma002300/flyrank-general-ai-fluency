@@ -1,0 +1,12 @@
+﻿{
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/Week-06/02_Open_It_on_Your_Phone/site/index.html"
+    },
+    {
+      "source": "/:path*",
+      "destination": "/Week-06/02_Open_It_on_Your_Phone/site/:path*"
+    }
+  ]
+}
