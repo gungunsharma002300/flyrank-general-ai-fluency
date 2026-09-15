@@ -1,22 +1,16 @@
-const menuButton = document.querySelector('.menu-toggle');
-const mobileMenu = document.querySelector('#mobile-menu');
+const menuToggle = document.getElementById("menuToggle");
+const navLinks = document.getElementById("navLinks");
 
-if (menuButton && mobileMenu) {
-  const closeMenu = () => {
-    menuButton.setAttribute('aria-expanded', 'false');
-    menuButton.setAttribute('aria-label', 'Open navigation menu');
-    mobileMenu.hidden = true;
-    document.body.classList.remove('menu-open');
-  };
+menuToggle?.addEventListener("click", () => {
+  const open = navLinks.classList.toggle("open");
+  menuToggle.setAttribute("aria-expanded", String(open));
+  menuToggle.setAttribute("aria-label", open ? "Close navigation" : "Open navigation");
+});
 
-  menuButton.addEventListener('click', () => {
-    const isOpen = menuButton.getAttribute('aria-expanded') === 'true';
-    menuButton.setAttribute('aria-expanded', String(!isOpen));
-    menuButton.setAttribute('aria-label', isOpen ? 'Open navigation menu' : 'Close navigation menu');
-    mobileMenu.hidden = isOpen;
-    document.body.classList.toggle('menu-open', !isOpen);
+navLinks?.querySelectorAll("a").forEach(link => {
+  link.addEventListener("click", () => {
+    navLinks.classList.remove("open");
+    menuToggle?.setAttribute("aria-expanded", "false");
+    menuToggle?.setAttribute("aria-label", "Open navigation");
   });
-
-  mobileMenu.querySelectorAll('a').forEach(link => link.addEventListener('click', closeMenu));
-  window.addEventListener('resize', () => { if (window.innerWidth > 800) closeMenu(); });
-}
+});

@@ -3,118 +3,203 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Gungun Sharma — BCA student building practical Data, Python and AI projects.">
-  <meta name="theme-color" content="#071411">
-  <title>Gungun Sharma | Data & AI Portfolio</title>
+  <meta name="description" content="Gungun Sharma — BCA student focused on Data Analytics, Python and AI/ML.">
+  <title>Gungun Sharma | Data & AI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<a class="skip-link" href="#main-content">Skip to content</a>
-<header class="nav-wrap">
-  <nav class="nav" aria-label="Primary navigation">
-    <a class="brand" href="#top" aria-label="Gungun Sharma home">GS<span>.</span></a>
-    <div class="nav-links desktop-nav">
-      <a href="#about">About</a><a href="#work">Work</a><a href="#skills">Skills</a><a href="#contact">Contact</a>
-    </div>
-    <div class="nav-actions">
-      <a class="nav-cta" href="resume.html">CV ↗</a>
-      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open navigation menu">☰</button>
-    </div>
-  </nav>
-  <div id="mobile-menu" class="mobile-menu" hidden>
-    <a href="#about">About</a><a href="#work">Work</a><a href="#skills">Skills</a><a href="#contact">Contact</a><a href="resume.html">CV ↗</a>
-  </div>
-</header>
+  <a class="skip-link" href="#main">Skip to content</a>
 
-<main id="main-content">
-<section id="top" class="section hero">
-  <div class="hero-copy">
-    <p class="eyebrow">BCA Student · Data & AI</p>
-    <h1>Building useful things with <span>data, Python & AI.</span></h1>
-    <p class="lead">I'm Gungun Sharma, a BCA student focused on Data Analytics, Python, AI/ML and practical projects that turn learning into working products.</p>
-    <div class="actions">
-      <a class="button primary" href="#work">View my work</a>
-      <a class="button secondary" href="booking.html">Book / connect ↗</a>
-    </div>
-    <div class="social-row" aria-label="Social links">
-      <a href="https://www.linkedin.com/in/gungun-sharma-7a5134361/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
-      <a href="https://github.com/gungunsharma002300" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
-      <a href="resume.html">CV ↗</a>
-    </div>
-  </div>
-  <div class="hero-card" aria-label="Portfolio workflow illustration">
-    <div class="orb" aria-hidden="true"></div>
-    <div class="mini-card card-a"><span>01</span><strong>Analyze</strong><small>Find the signal in data.</small></div>
-    <div class="mini-card card-b"><span>02</span><strong>Build</strong><small>Turn learning into projects.</small></div>
-    <div class="mini-card card-c"><span>03</span><strong>Ship</strong><small>Make it usable and real.</small></div>
-  </div>
-</section>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Primary navigation">
+      <a class="brand" href="#home" aria-label="Gungun Sharma home">
+        <span class="brand-mark">GS</span>
+        <span>Gungun Sharma</span>
+      </a>
 
-<section id="about" class="section split">
-  <div><p class="eyebrow">01 — About</p><h2>Curious learner. Practical builder.</h2></div>
-  <div class="prose">
-    <p>I’m pursuing my BCA and building toward a Data Analyst career. My current learning path combines Python, SQL, Excel, Power BI, AI/ML and modern web development.</p>
-    <p>I like learning by shipping: each internship or project becomes a chance to understand a tool, solve a real problem, and explain what I built.</p>
-  </div>
-</section>
+      <button class="menu-toggle" id="menuToggle" type="button"
+              aria-expanded="false" aria-controls="navLinks" aria-label="Open navigation">
+        <span></span><span></span><span></span>
+      </button>
 
-<section id="work" class="section">
-  <div class="section-head"><div><p class="eyebrow">02 — Selected work</p><h2>Projects that show how I learn.</h2></div></div>
-  <div class="projects">
-    <article class="project featured">
-      <div class="project-num">01</div><div>
-        <p class="tag">AI / ML · Python</p><h3>DeepFER — Facial Emotion Recognition</h3>
-        <p>Deep-learning work using the FER2013 dataset to classify facial expressions and explore practical computer-vision workflows.</p>
-        <div class="chips"><span>Python</span><span>Deep Learning</span><span>FER2013</span></div>
-        <a class="project-link" href="https://github.com/gungunsharma002300/Labmentix-AI-ML-Internship" target="_blank" rel="noopener noreferrer">Repository ↗</a>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+        <a class="nav-cta" href="#work">View proof</a>
       </div>
-    </article>
-    <article class="project">
-      <div class="project-num">02</div><div>
-        <p class="tag">AI Engineering · FlyRank</p><h3>FlyRank AI Internship Builds</h3>
-        <p>Hands-on work across AI-enabled frontend interfaces, agent design, streaming interactions, documentation and deployment workflows.</p>
-        <div class="chips"><span>Next.js</span><span>AI SDK</span><span>GitHub</span></div>
-        <a class="project-link" href="https://github.com/gungunsharma002300/flyrank-general-ai-fluency" target="_blank" rel="noopener noreferrer">Repository ↗</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero container" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">BCA STUDENT · DATA & AI</p>
+        <h1>Building useful things with <span>data, Python &amp; AI.</span></h1>
+        <p class="hero-text">
+          I’m Gungun Sharma, a BCA student focused on Data Analytics, Python and AI/ML.
+          I turn learning into practical projects with visible evidence, clear outcomes and working demos where available.
+        </p>
+        <div class="actions">
+          <a class="button primary" href="#work">See my work <span>↓</span></a>
+          <a class="button secondary" href="#contact">Book / connect <span>↗</span></a>
+        </div>
+        <div class="proof-strip" aria-label="What this portfolio proves">
+          <div><strong>01</strong><span>Analyze</span></div>
+          <div><strong>02</strong><span>Build</span></div>
+          <div><strong>03</strong><span>Ship</span></div>
+        </div>
       </div>
-    </article>
-    <article class="project">
-      <div class="project-num">03</div><div>
-        <p class="tag">Python · Generative AI</p><h3>BugHunter AI</h3>
-        <p>An in-progress Streamlit AI debugging assistant concept for inspecting code, explaining errors and suggesting fixes.</p>
-        <div class="chips"><span>Python</span><span>Streamlit</span><span>Gemini</span></div>
-        <span class="status-note">In progress · public repository not linked yet</span>
+
+      <div class="hero-visual" aria-label="Data and AI workflow illustration">
+        <div class="orb orb-a"></div>
+        <div class="orb orb-b"></div>
+        <div class="visual-card">
+          <div class="visual-top"><span class="dot"></span><span>PORTFOLIO / PROOF</span><span>●</span></div>
+          <div class="visual-grid">
+            <div class="metric"><small>Focus</small><b>Data + AI</b></div>
+            <div class="metric"><small>Core</small><b>Python</b></div>
+            <div class="metric wide"><small>Workflow</small><b>Analyze → Build → Ship</b></div>
+          </div>
+          <div class="code-line"><i></i><i></i><i></i><span>turning ideas into useful products</span></div>
+        </div>
       </div>
-    </article>
-  </div>
-</section>
+    </section>
 
-<section id="skills" class="section skills-section">
-  <div><p class="eyebrow">03 — Toolkit</p><h2>What I'm working with.</h2></div>
-  <div class="skill-grid">
-    <div><h3>Data</h3><p>SQL · Excel · Power BI · Pandas · NumPy</p></div>
-    <div><h3>Programming</h3><p>Python · JavaScript · HTML · CSS · C/C++ · Java</p></div>
-    <div><h3>AI / ML</h3><p>Machine Learning · Deep Learning · Generative AI</p></div>
-    <div><h3>Workflow</h3><p>Git · GitHub · VS Code · Deployment</p></div>
-  </div>
-</section>
+    <section class="section container" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">ABOUT</p>
+        <h2>A clear direction, backed by work.</h2>
+        <p>
+          My goal is to grow into practical Data Analytics and AI/ML roles by building,
+          testing and explaining real projects—not only listing technologies.
+        </p>
+      </div>
 
-<section class="section future">
-  <div><p class="eyebrow">04 — What's next</p><h2>More case studies are coming.</h2></div>
-  <p><strong>Netflix Content Intelligence</strong> is a planned analytics case study. I’ll publish it after the actual SQL/Python/Excel/Power BI work is completed, rather than presenting planned work as finished work.</p>
-</section>
+      <div class="about-grid">
+        <article class="info-card">
+          <span class="card-number">01</span>
+          <h3>What I do</h3>
+          <p>Explore data, build Python-based solutions and experiment with AI/ML workflows.</p>
+        </article>
+        <article class="info-card">
+          <span class="card-number">02</span>
+          <h3>How I work</h3>
+          <p>Start from a problem, build a useful artifact, validate it and communicate the result clearly.</p>
+        </article>
+        <article class="info-card">
+          <span class="card-number">03</span>
+          <h3>What I’m improving</h3>
+          <p>Making project proof easier to verify through concrete outputs, repository links and demos.</p>
+        </article>
+      </div>
+    </section>
 
-<section id="contact" class="section contact">
-  <p class="eyebrow">05 — Contact</p><h2>Let's connect and build.</h2>
-  <p>For opportunities, project conversations or collaboration, reach me through LinkedIn or explore my GitHub.</p>
-  <div class="actions">
-    <a class="button primary" href="https://www.linkedin.com/in/gungun-sharma-7a5134361/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
-    <a class="button secondary" href="https://github.com/gungunsharma002300" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
-    <a class="button secondary" href="resume.html">Download CV ↗</a>
-  </div>
-</section>
-</main>
+    <section class="section container" id="work">
+      <div class="section-heading row-heading">
+        <div>
+          <p class="eyebrow">SELECTED WORK</p>
+          <h2>Proof first. Description second.</h2>
+        </div>
+        <p class="heading-note">Each project is labeled by status so unfinished work is never presented as finished.</p>
+      </div>
 
-<footer><span>© 2026 Gungun Sharma</span><span>Built with HTML & CSS · Responsive static site</span></footer>
-<script src="script.js"></script>
+      <div class="project-grid">
+        <article class="project-card featured">
+          <div class="project-top">
+            <span class="status done">COMPLETED ANALYSIS</span>
+            <span class="project-index">01</span>
+          </div>
+          <h3>Zomato Restaurant Clustering &amp; Sentiment Analysis</h3>
+          <p class="project-problem"><b>Problem:</b> understand restaurant reviews, sentiment, pricing patterns and meaningful restaurant segments.</p>
+          <div class="project-details">
+            <div><small>What I built</small><strong>EDA + sentiment analysis + ML clustering</strong></div>
+            <div><small>Technologies</small><strong>Python · Pandas · TextBlob · Scikit-learn · KMeans</strong></div>
+            <div><small>Evidence</small><strong>9,954 reviews · 105 restaurants · 63% positive sentiment</strong></div>
+            <div><small>Model result</small><strong>Random Forest classification reported 100% accuracy in the project analysis</strong></div>
+          </div>
+          <div class="project-proof">
+            <span>✓ Concrete project metrics</span>
+            <span>✓ Findings documented</span>
+            <span>✓ Analysis artifact available</span>
+          </div>
+          <p class="source-note">Project evidence is documented in the accompanying submission package; public repository/demo link can be added when available.</p>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <span class="status live">LIVE</span>
+            <span class="project-index">02</span>
+          </div>
+          <h3>Data &amp; AI Portfolio</h3>
+          <p class="project-problem"><b>Problem:</b> communicate what I can do quickly and give reviewers direct proof instead of a technology-only list.</p>
+          <div class="project-details">
+            <div><small>What I built</small><strong>Responsive portfolio with proof-led project cards</strong></div>
+            <div><small>Technologies</small><strong>HTML · CSS · JavaScript · Vercel</strong></div>
+            <div><small>Result</small><strong>Mobile-first navigation, clear project status and evidence-focused sections</strong></div>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/gungunsharma002300/flyrank-general-ai-fluency" target="_blank" rel="noopener">GitHub ↗</a>
+            <a href="https://flyrank-general-ai-fluency-bx1chzhv1.vercel.app/" target="_blank" rel="noopener">Live site ↗</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <span class="status progress">IN PROGRESS</span>
+            <span class="project-index">03</span>
+          </div>
+          <h3>AI / ML Experiments</h3>
+          <p class="project-problem"><b>Goal:</b> deepen practical experience with modern AI/ML tools and turn experiments into demonstrable projects.</p>
+          <div class="project-details">
+            <div><small>Current status</small><strong>Experiments and learning in progress</strong></div>
+            <div><small>Areas</small><strong>Transformers · generative AI · applied ML</strong></div>
+            <div><small>Next proof</small><strong>Publish a finished artifact and working demo before calling it complete</strong></div>
+          </div>
+          <div class="project-proof">
+            <span>◷ Clearly marked in progress</span>
+            <span>◷ No unfinished work presented as shipped</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section container" id="skills">
+      <div class="section-heading">
+        <p class="eyebrow">SKILLS</p>
+        <h2>Tools I use to build.</h2>
+      </div>
+      <div class="skills">
+        <span>Python</span><span>SQL</span><span>Data Analytics</span><span>Machine Learning</span>
+        <span>AI / GenAI</span><span>HTML</span><span>CSS</span><span>JavaScript</span>
+        <span>Pandas</span><span>Scikit-learn</span><span>Git &amp; GitHub</span><span>Vercel</span>
+      </div>
+    </section>
+
+    <section class="section container contact-section" id="contact">
+      <div class="contact-card">
+        <div>
+          <p class="eyebrow">CONTACT</p>
+          <h2>Want to talk about data, AI or a project?</h2>
+          <p>I’m open to learning opportunities, project discussions and constructive feedback.</p>
+        </div>
+        <div class="contact-actions">
+          <a class="button primary" href="mailto:gungunsharma002300@gmail.com">Email me ↗</a>
+          <a class="button secondary" href="https://github.com/gungunsharma002300/flyrank-general-ai-fluency" target="_blank" rel="noopener">GitHub ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <span>© 2026 Gungun Sharma</span>
+    <span>Data · Python · AI/ML</span>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
