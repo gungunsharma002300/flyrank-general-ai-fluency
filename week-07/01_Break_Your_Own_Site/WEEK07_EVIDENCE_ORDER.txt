@@ -1,0 +1,12 @@
+WEEK 7 EVIDENCE ORDER
+
+01 — Production site home screenshot
+02 — Empty-form validation screenshot
+03 — Garbage/invalid-email validation screenshot
+04 — Valid-form + duplicate-submit protection screenshot
+05 — SEO/social preview metadata or preview screenshot
+06 — PageSpeed Insights result screenshot
+07 — Search/findability result screenshot
+08 — Hardening review / peer-review evidence
+
+Only add genuine screenshots/results. Do not fabricate scores, search results, or reviewer feedback.

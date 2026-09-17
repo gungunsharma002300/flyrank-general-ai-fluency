@@ -1,0 +1,17 @@
+FlyRank Week 6 package verification
+
+Automated/local checks completed:
+- All expected HTML files present.
+- All local HTML links resolve to existing local files.
+- Responsive CSS includes breakpoints for <=800px and <=430px.
+- Mobile navigation has aria-expanded/aria-controls state.
+- Skip link and visible keyboard focus styles are present.
+- prefers-reduced-motion is handled.
+- External links use HTTPS.
+
+Not claimed as automated evidence:
+- Physical-phone testing (must be done by the student).
+- Final live deployment URL (depends on the student's hosting account).
+- Before/after real-phone screenshots (must be genuine).
+
+Note: A headless browser screenshot test could not be run in this environment because the Playwright browser executable is not installed. The HTML/local-link validation did pass.

@@ -1,0 +1,19 @@
+WEEK07 STATIC VERIFICATION
+
+This package contains the Week 7 hardening changes and documentation.
+
+Verified locally:
+- index.html, booking.html and resume.html parse as text files.
+- robots.txt and sitemap.xml exist.
+- social-preview.svg exists.
+- Internal page/PDF references point to files included in the site folder.
+- Contact form has required fields, email validation, length limits, honeypot and duplicate-submit protection.
+- OG/Twitter/canonical metadata is present.
+
+Not claimed as automated/live evidence:
+- Physical browser/device screenshots
+- PageSpeed score
+- Search-engine ranking/indexing result
+- Mentor/peer review outcome
+
+These must be captured honestly from the live site before final submission.

@@ -1,0 +1,9 @@
+WEEK 6 PHONE EVIDENCE ORDER
+
+1. evidence/phone-home.png     -> replace the blank placeholder with the genuine Home/Hero screenshot.
+2. evidence/phone-menu.png     -> genuine mobile menu screenshot.
+3. evidence/phone-about.png    -> genuine About screenshot.
+4. evidence/phone-projects.png -> genuine Projects screenshot.
+5. evidence/phone-contact.png  -> genuine Contact screenshot.
+
+The screenshots supplied by the user were added without fabrication. The Home screenshot could not be supplied in this chat, so a blank placeholder is included for replacement.

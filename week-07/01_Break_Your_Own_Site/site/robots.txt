@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://flyrank-general-ai-fluency.vercel.app/sitemap.xml
