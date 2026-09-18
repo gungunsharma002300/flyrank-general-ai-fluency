@@ -1,0 +1,19 @@
+{
+  "name": "gungun-sharma-portfolio",
+  "version": "1.0.0",
+  "description": "Gungun Sharma's Data & AI Portfolio - Static HTML site with Vercel Web Analytics",
+  "type": "module",
+  "scripts": {
+    "dev": "npx serve -l 3000",
+    "build": "echo 'Static HTML site - no build step required'"
+  },
+  "keywords": [
+    "portfolio",
+    "analytics"
+  ],
+  "author": "Gungun Sharma",
+  "license": "MIT",
+  "dependencies": {
+    "@vercel/analytics": "^1.4.1"
+  }
+}
